@@ -1,0 +1,57 @@
+<!DOCTYPE html><html>
+<meta charset="UTF-8">
+<head>
+  <title>dmn-js modeler demo</title>
+  <link rel="stylesheet" href="css/diagram-js.css" />
+  <link rel="stylesheet" href="css/dmn-js.css" />
+  <link rel="stylesheet" href="css/app.css" />
+
+  <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+  <div class="content" id="js-drop-zone">
+
+    <div class="message intro">
+      <div class="note">
+        <!--<div class="project-logo">-->
+          <!--<span class="dmn-icon-bpmn-io"></span>-->
+        <!--</div>-->
+        <div class="create-new">
+          拖动决策表到桌面 or <a id="js-create-table" href>创建新的决策表</a>开始.
+        </div>
+        <div class="use-demo">
+          <img class="img" src="img/screencast.gif"><br />
+          Or 示例
+        </div>
+      </div>
+    </div>
+
+    <div class="message error">
+      <div class="note">
+        <p>哦，决策表显示错误.</p>
+
+        <div class="details">
+          <span>问题原因</span>
+          <pre></pre>
+        </div>
+      </div>
+    </div>
+
+    <div class="table" id="js-table"></div>
+  </div>
+
+  <ul class="buttons">
+    <li>
+      <a id="js-download-table" href title="下载DMN决策表">
+        下载
+      </a>
+    </li>
+    <li>
+      <a id="show-drd" href title="显示DRD" class="active">
+        切换DRD
+      </a>
+    </li>
+  </ul>
+
+  <script src="index.js"></script>
+</html>

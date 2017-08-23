@@ -41,10 +41,10 @@ grunt auto-build
 
 ## 可视化编辑截图
 
-<img src="https://github.com/supermy/dmn-js-online/drd-modeler/docs/dmn-1.png" height = "400" width = "480" alt="1">
-<img src="https://github.com/supermy/dmn-js-online/drd-modeler/docs/dmn-2.png" height = "400" width = "480" alt="1">
-<img src="https://github.com/supermy/dmn-js-online/drd-modeler/docs/dmn-3.png" height = "400" width = "480" alt="1">
-<img src="https://github.com/supermy/dmn-js-online/drd-modeler/docs/dmn-4.png" height = "400" width = "480" alt="1">
-<img src="https://github.com/supermy/dmn-js-online/drd-modeler/docs/dmn-5.png" height = "400" width = "480" alt="1">
-<img src="https://github.com/supermy/dmn-js-online/drd-modeler/docs/dmn-6.png" height = "400" width = "480" alt="1">
+<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-1.png" height = "400" width = "480" alt="1">
+<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-2.png" height = "400" width = "480" alt="1">
+<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-3.png" height = "400" width = "480" alt="1">
+<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-4.png" height = "400" width = "480" alt="1">
+<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-5.png" height = "400" width = "480" alt="1">
+<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-6.png" height = "400" width = "480" alt="1">
 

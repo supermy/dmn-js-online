@@ -21,12 +21,12 @@ sed -i.backup 's/Entry 2/实体2/' /Users/moyong/project/env-rule/dmn-js-online/
 sed -i.backup 's/"Input "/"输入参数 "/' /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 sed -i.backup 's/"Output "/"输出参数 "/' /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 sed -i.backup 's/Variable Name/变量名称/' /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
-
-
-sed -i.backup  "s/'Input/'输入/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
-sed -i.backup  "s/'Output/'输出/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
-sed -i.backup  "s/'Annotation/'注解/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 #
+#
+sed -i.backup  "s/'Input </'输入 </" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
+sed -i.backup  "s/'Output </'输出 </" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
+sed -i.backup  "s/'Annotation/'注解/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
+
 
 sed -i.backup  "s/'Type'/'类型'/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 
@@ -55,8 +55,6 @@ sed -i.backup  "s/(Greater than)/(大于)/" /Users/moyong/project/env-rule/dmn-j
 sed -i.backup  "s/(Greater than or equal)/(大于或等于)/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 sed -i.backup  "s/(Equals)/(等于)/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 sed -i.backup  "s/Edit String Result/编辑字符串结果/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
-
-
 
 
 sed -i.backup  "s/owered by bpmn.io/源于bpmn.io/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js

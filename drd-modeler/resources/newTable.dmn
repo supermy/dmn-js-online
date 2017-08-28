@@ -3,14 +3,14 @@
              id="definitions"
              name="definitions"
              namespace="http://camunda.org/schema/1.0/dmn">
-  <decision id="decision" name="">
+  <decision id="decision" name="策略名称">
     <decisionTable id="decisionTable">
-      <input id="input1" label="">
+      <input id="input1" label="输入参数1">
         <inputExpression id="inputExpression1" typeRef="string">
           <text></text>
         </inputExpression>
       </input>
-      <output id="output1" label="" name="" typeRef="string">
+      <output id="output1" label="输出参数1" name="" typeRef="string">
       </output>
     </decisionTable>
   </decision>

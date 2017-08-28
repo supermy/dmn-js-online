@@ -55,6 +55,9 @@ sed -i.backup  "s/(Greater than)/(大于)/" /Users/moyong/project/env-rule/dmn-j
 sed -i.backup  "s/(Greater than or equal)/(大于或等于)/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 sed -i.backup  "s/(Equals)/(等于)/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
 sed -i.backup  "s/Edit String Result/编辑字符串结果/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
+sed -i.backup  "s/Edit Number Result/编辑数字结果/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js
+
+
 
 
 sed -i.backup  "s/owered by bpmn.io/源于bpmn.io/" /Users/moyong/project/env-rule/dmn-js-online/drd-modeler/dist/index.js

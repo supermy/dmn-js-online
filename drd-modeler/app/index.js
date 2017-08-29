@@ -22,14 +22,67 @@ var renderer = new DmnModeler({
   }
 });
 
+
+// var DmnViewer = require('dmn-js');
+//
+// var xml; // my DMN xml
+//
+// var viewer = new DmnViewer({ container: 'body' });
+// //
+// // viewer.importXML(xml, function(err) {
+// //
+// //     if (err) {
+// //         console.log('error rendering', err);
+// //     } else {
+// //         console.log('rendered');
+// //     }
+// // });
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            if (sParameterName.length>2){
+                return sParameterName[1]+'='+sParameterName[2];            }
+            else            {
+                return sParameterName[1] === undefined ? true : sParameterName[1];            }
+
+           // return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+var xml = getUrlParameter('dmnFileName');
+//获取 url filename 参数，加载 dmn 决策表
+console.log(xml);
+
 var newTableXML = require('../resources/newTable.dmn');
 var exampleXML = require('../resources/di.dmn');
 
+
 function createNewTable() {
+  // alert(newTableXML);
+  console.log(newTableXML);
+
   openTable(newTableXML);
 }
 function createDemoTable() {
+  console.log(exampleXML);
+  // alert(exampleXML);
   openTable(exampleXML);
+}
+
+function createOpenTable() {
+    $.get(xml, function(result){
+        console.log(result);
+        openTable(result);
+    });
 }
 
 downloadLink.on('click', function() {
@@ -150,7 +203,18 @@ $(document).on('ready', function() {
     }
   });
 
-  $('.use-demo').click(function(e) {
+    $('#js-open-table').click(function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+
+        createOpenTable();
+        if(window.history && typeof window.history.pushState === 'function') {
+            window.history.pushState({},'', window.location.href + '?dmnFileName');
+        }
+    });
+
+
+    $('.use-demo').click(function(e) {
     e.stopPropagation();
     e.preventDefault();
 
@@ -178,6 +242,9 @@ $(document).on('ready', function() {
     createNewTable();
   } else if(href.indexOf('?example') !== -1) {
     createDemoTable();
+  }
+  else if(href.indexOf('?dmnFileName') !== -1) {
+    createOpenTable();
   }
 
   window.onbeforeunload = checkDirty;

@@ -17,12 +17,12 @@
 
 ## 可视化编辑截图
 
-<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-1.png"  alt="1">
-<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-2.png"  alt="1">
-<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-3.png"  alt="1">
-<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-4.png"  alt="1">
-<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-5.png"  alt="1">
-<img src="https://github.com/supermy/dmn-js-online/blob/master/drd-modeler/docs/dmn-6.png"  alt="1">
+<img src="https://github.com/supermy/dmn-js-online/raw/master/drd-modeler/docs/dmn-1.png"  alt="1">
+<img src="https://github.com/supermy/dmn-js-online/raw/master/drd-modeler/docs/dmn-2.png"  alt="1">
+<img src="https://github.com/supermy/dmn-js-online/raw/master/drd-modeler/docs/dmn-3.png"  alt="1">
+<img src="https://github.com/supermy/dmn-js-online/raw/master/drd-modeler/docs/dmn-4.png"  alt="1">
+<img src="https://github.com/supermy/dmn-js-online/raw/master/drd-modeler/docs/dmn-5.png"  alt="1">
+<img src="https://github.com/supermy/dmn-js-online/raw/master/drd-modeler/docs/dmn-6.png"  alt="1">
 
 
 
